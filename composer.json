@@ -1,0 +1,14 @@
+{
+    "name": "code.matif/php-mvc",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper": "^6.4",
+        "phroute/phroute": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    }
+}

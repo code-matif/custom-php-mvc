@@ -1,0 +1,21 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore environment configuration
+.env
+
+# Ignore cache files
+/cache/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+/logs/
+*.log
